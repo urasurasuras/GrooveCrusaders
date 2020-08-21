@@ -3,7 +3,7 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 using static MasterInput;
 
-public class Player : MonoBehaviour, IPlayerActions, IActor
+public class Player : MonoBehaviour, IPlayerActions
 {
     public MasterInput inputActions;
     public Config cfg;
@@ -103,13 +103,10 @@ public class Player : MonoBehaviour, IPlayerActions, IActor
         {
             facing = nextFacing;
 
-            Flip(nextFacing);
+            GetComponent<Actor>().Flip(nextFacing);
         }
     }
 
-    public void Flip(bool facing)
-    {
-        sr.flipX = facing;
-    }
+    
     #endregion
 }
