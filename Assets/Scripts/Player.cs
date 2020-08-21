@@ -3,12 +3,14 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 using static MasterInput;
 
-public class Player : MonoBehaviour, IPlayerActions
+public class Player : MonoBehaviour, IPlayerActions, IActor
 {
     public MasterInput inputActions;
     public Config cfg;
 
     Rigidbody2D rb;
+    SpriteRenderer sr;
+    bool facing = false;// 0 if left 1 if right
     public float range = 1f;
     [SerializeField]
     Vector2 move;
@@ -32,6 +34,7 @@ public class Player : MonoBehaviour, IPlayerActions
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        sr = GetComponent<SpriteRenderer>();
         crosshair = transform.GetChild(0).gameObject;
 
         cfg = GetComponent<Config>();
@@ -86,7 +89,27 @@ public class Player : MonoBehaviour, IPlayerActions
     }
     public void OnAim(InputAction.CallbackContext ctx)
     {
+        CheckAndFlip();
         _ctx = ctx;
+    }
+
+    private void CheckAndFlip()
+    {
+        bool nextFacing;
+        if (crosshair.transform.localPosition.x < 0) nextFacing = true;
+        else { nextFacing = false; }
+
+        if (nextFacing != facing)
+        {
+            facing = nextFacing;
+
+            Flip(nextFacing);
+        }
+    }
+
+    public void Flip(bool facing)
+    {
+        sr.flipX = facing;
     }
     #endregion
 }
