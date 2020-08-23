@@ -10,6 +10,7 @@ public class Player : MonoBehaviour, IPlayerActions
 
     Rigidbody2D rb;
     SpriteRenderer sr;
+
     bool facing = false;// 0 if left 1 if right
     public float range = 1f;
     [SerializeField]
@@ -20,6 +21,7 @@ public class Player : MonoBehaviour, IPlayerActions
     InputAction.CallbackContext _ctx;
 
     GameObject crosshair;
+    GameObject weapon;
     private void Awake()
     {
         inputActions = new MasterInput();
@@ -29,6 +31,9 @@ public class Player : MonoBehaviour, IPlayerActions
 
         inputActions.Player.Aim.performed += OnAim;
         inputActions.Player.Aim.canceled += OnAim;
+
+        inputActions.Player.Attack.performed += OnAttack;
+        inputActions.Player.Attack.canceled -= OnAttack;
     }
 
     private void Start()
@@ -36,6 +41,7 @@ public class Player : MonoBehaviour, IPlayerActions
         rb = GetComponent<Rigidbody2D>();
         sr = GetComponent<SpriteRenderer>();
         crosshair = transform.GetChild(0).gameObject;
+        weapon = transform.GetChild(1).gameObject;        
 
         cfg = GetComponent<Config>();
 
@@ -82,17 +88,6 @@ public class Player : MonoBehaviour, IPlayerActions
             crosshair.transform.position = new Vector2(screenPoint.x, screenPoint.y);
         }
     }
-    #region IPlayerActions
-    public void OnMovement(InputAction.CallbackContext ctx)
-    {
-        move = ctx.ReadValue<Vector2>();
-    }
-    public void OnAim(InputAction.CallbackContext ctx)
-    {
-        CheckAndFlip();
-        _ctx = ctx;
-    }
-
     private void CheckAndFlip()
     {
         bool nextFacing;
@@ -104,9 +99,32 @@ public class Player : MonoBehaviour, IPlayerActions
             facing = nextFacing;
 
             GetComponent<Actor>().Flip(nextFacing);
+
+            var wp = weapon.GetComponent<Actor>();
+            if (wp)
+            {
+                wp.Flip(nextFacing);
+                wp.ReverseRenderOrder();
+            }
         }
     }
+    #region IPlayerActions
+    public void OnMovement(InputAction.CallbackContext ctx)
+    {
+        move = ctx.ReadValue<Vector2>();
+    }
+    public void OnAim(InputAction.CallbackContext ctx)
+    {
+        CheckAndFlip();
+        _ctx = ctx;
+    }
 
-    
+   
+    public void OnAttack(InputAction.CallbackContext context)
+    {
+        weapon.GetComponent<Weapon>().Attack();
+    }
+
+
     #endregion
 }

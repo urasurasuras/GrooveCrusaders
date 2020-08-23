@@ -5,6 +5,9 @@ using static MasterInput;
 
 public class Actor : MonoBehaviour
 {
+    public Sprite frontSprite;
+    public Sprite backSprite;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -18,6 +21,18 @@ public class Actor : MonoBehaviour
     }
     public void Flip(bool facing)
     {
-        GetComponent<SpriteRenderer>().flipX = facing;
+        if (facing)
+        {
+            GetComponent<SpriteRenderer>().sprite = backSprite;
+        }else if (!facing)
+        {
+            GetComponent<SpriteRenderer>().sprite = frontSprite;
+        }
+        //GetComponent<SpriteRenderer>().flipX = facing;
+    }
+    public void ReverseRenderOrder()
+    {
+        GetComponent<SpriteRenderer>().sortingOrder *= -1;
+        //print("New order is: " + GetComponent<SpriteRenderer>().sortingOrder);
     }
 }
