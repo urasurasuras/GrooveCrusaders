@@ -1,0 +1,2114 @@
+fileFormatVersion: 2
+guid: 87628bcc92ffd284793a5d4c47bc7b39
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2434188656713134219
+    second: Cybernetic Tile_0
+  - first:
+      213: -3144505266764011162
+    second: Cybernetic Tile_1
+  - first:
+      213: 8512175163768361024
+    second: Cybernetic Tile_2
+  - first:
+      213: -5181016495838767981
+    second: Cybernetic Tile_3
+  - first:
+      213: 2387129819666759358
+    second: Cybernetic Tile_4
+  - first:
+      213: -1099749733590018662
+    second: Cybernetic Tile_5
+  - first:
+      213: -5353140748703835133
+    second: Cybernetic Tile_6
+  - first:
+      213: 7090969563766954312
+    second: Cybernetic Tile_7
+  - first:
+      213: -2193719246875730982
+    second: Cybernetic Tile_8
+  - first:
+      213: -1240518603124998865
+    second: Cybernetic Tile_9
+  - first:
+      213: 49580689762335137
+    second: Cybernetic Tile_10
+  - first:
+      213: -3093195788248088966
+    second: Cybernetic Tile_11
+  - first:
+      213: 6265182028821813330
+    second: Cybernetic Tile_12
+  - first:
+      213: -1564398587190017832
+    second: Cybernetic Tile_13
+  - first:
+      213: -5460758334340241931
+    second: Cybernetic Tile_14
+  - first:
+      213: 6234135074813527464
+    second: Cybernetic Tile_15
+  - first:
+      213: 3899084598284609378
+    second: Cybernetic Tile_16
+  - first:
+      213: -2692024691125669347
+    second: Cybernetic Tile_17
+  - first:
+      213: -703871289829555731
+    second: Cybernetic Tile_18
+  - first:
+      213: -4820843893841049764
+    second: Cybernetic Tile_19
+  - first:
+      213: 445450897771890659
+    second: Cybernetic Tile_20
+  - first:
+      213: 2356952400326873684
+    second: Cybernetic Tile_21
+  - first:
+      213: -5516789018892865543
+    second: Cybernetic Tile_22
+  - first:
+      213: -7166839295890069964
+    second: Cybernetic Tile_23
+  - first:
+      213: 4472738259530921829
+    second: Cybernetic Tile_24
+  - first:
+      213: -2175865894754615118
+    second: Cybernetic Tile_25
+  - first:
+      213: -4630722209883256894
+    second: Cybernetic Tile_26
+  - first:
+      213: 8720800761678999910
+    second: Cybernetic Tile_27
+  - first:
+      213: 3096815609940755622
+    second: Cybernetic Tile_28
+  - first:
+      213: -7172501774418203516
+    second: Cybernetic Tile_29
+  - first:
+      213: -4194559151013928395
+    second: Cybernetic Tile_30
+  - first:
+      213: 6578652011706571048
+    second: Cybernetic Tile_31
+  - first:
+      213: -8692799681652043701
+    second: Cybernetic Tile_32
+  - first:
+      213: 6279849925386392176
+    second: Cybernetic Tile_33
+  - first:
+      213: 5346212672290731045
+    second: Cybernetic Tile_34
+  - first:
+      213: -6636998378613869909
+    second: Cybernetic Tile_35
+  - first:
+      213: 2532506634362073291
+    second: Cybernetic Tile_36
+  - first:
+      213: -1558255273959702710
+    second: Cybernetic Tile_37
+  - first:
+      213: -1353536324173196161
+    second: Cybernetic Tile_38
+  - first:
+      213: 9084823273847214987
+    second: Cybernetic Tile_39
+  - first:
+      213: -7462715239984131148
+    second: Cybernetic Tile_40
+  - first:
+      213: 4074519781534016254
+    second: Cybernetic Tile_41
+  - first:
+      213: -2088424283146912042
+    second: Cybernetic Tile_42
+  - first:
+      213: -1394019596398943416
+    second: Cybernetic Tile_43
+  - first:
+      213: 2867859070607326021
+    second: Cybernetic Tile_44
+  - first:
+      213: -3928410784725586500
+    second: Cybernetic Tile_45
+  - first:
+      213: -4530312157459942386
+    second: Cybernetic Tile_46
+  - first:
+      213: -3274140079344695636
+    second: Cybernetic Tile_47
+  - first:
+      213: -981108285138131809
+    second: Cybernetic Tile_48
+  - first:
+      213: 1230331826162652262
+    second: Cybernetic Tile_49
+  - first:
+      213: 1161159088105488061
+    second: Cybernetic Tile_50
+  - first:
+      213: 7268281446355343152
+    second: Cybernetic Tile_51
+  - first:
+      213: -5138912386226627033
+    second: Cybernetic Tile_52
+  - first:
+      213: 8245812209568617091
+    second: Cybernetic Tile_53
+  - first:
+      213: -7193694847743740378
+    second: Cybernetic Tile_54
+  - first:
+      213: 2455743190190475972
+    second: Cybernetic Tile_55
+  - first:
+      213: 5786800976221727164
+    second: Cybernetic Tile_56
+  - first:
+      213: 306101903645661897
+    second: Cybernetic Tile_57
+  - first:
+      213: -76644839123503847
+    second: Cybernetic Tile_58
+  - first:
+      213: 4502014938175719447
+    second: Cybernetic Tile_59
+  - first:
+      213: 5048893964559513160
+    second: Cybernetic Tile_60
+  - first:
+      213: 7810105441165967539
+    second: Cybernetic Tile_61
+  - first:
+      213: 31837757420584410
+    second: Cybernetic Tile_62
+  - first:
+      213: 5822030369466424458
+    second: Cybernetic Tile_63
+  - first:
+      213: 2626858697880210433
+    second: Cybernetic Tile_64
+  - first:
+      213: -6308351875056672285
+    second: Cybernetic Tile_65
+  - first:
+      213: -4075575698656064730
+    second: Cybernetic Tile_66
+  - first:
+      213: 3593847696850171559
+    second: Cybernetic Tile_67
+  - first:
+      213: -444872596164800755
+    second: Cybernetic Tile_68
+  - first:
+      213: 750001900446794992
+    second: Cybernetic Tile_69
+  - first:
+      213: 7997455100041604552
+    second: Cybernetic Tile_70
+  - first:
+      213: 6296602232260583014
+    second: Cybernetic Tile_71
+  - first:
+      213: 2887951694483443417
+    second: Cybernetic Tile_72
+  - first:
+      213: -7836533066297347892
+    second: Cybernetic Tile_73
+  - first:
+      213: 3827076045567756443
+    second: Cybernetic Tile_74
+  - first:
+      213: 3492330266615130019
+    second: Cybernetic Tile_75
+  - first:
+      213: 2112045497086449834
+    second: Cybernetic Tile_76
+  - first:
+      213: 1882150088826819850
+    second: Cybernetic Tile_77
+  - first:
+      213: 6676616920208041893
+    second: Cybernetic Tile_78
+  - first:
+      213: 3794054939823856591
+    second: Cybernetic Tile_79
+  - first:
+      213: 165478907805185708
+    second: Cybernetic Tile_80
+  - first:
+      213: -1343301851057852784
+    second: Cybernetic Tile_81
+  - first:
+      213: 3839228517358953367
+    second: Cybernetic Tile_82
+  - first:
+      213: 4281738473888529398
+    second: Cybernetic Tile_83
+  - first:
+      213: 8446892067960394205
+    second: Cybernetic Tile_84
+  - first:
+      213: -4607714126437311567
+    second: Cybernetic Tile_85
+  - first:
+      213: 782453359933264590
+    second: Cybernetic Tile_86
+  - first:
+      213: 6667358085573046996
+    second: Cybernetic Tile_87
+  - first:
+      213: 4318712647035542622
+    second: Cybernetic Tile_88
+  - first:
+      213: -871040786510795991
+    second: Cybernetic Tile_89
+  - first:
+      213: 689377789169486169
+    second: Cybernetic Tile_90
+  - first:
+      213: -6959943686285427356
+    second: Cybernetic Tile_91
+  - first:
+      213: 569087326639771121
+    second: Cybernetic Tile_92
+  - first:
+      213: 4354148176072582556
+    second: Cybernetic Tile_93
+  - first:
+      213: 4525121650447329702
+    second: Cybernetic Tile_94
+  - first:
+      213: -7676015213508894629
+    second: Cybernetic Tile_95
+  - first:
+      213: 315680309326844748
+    second: Cybernetic Tile_96
+  - first:
+      213: 7986096849129356762
+    second: Cybernetic Tile_97
+  - first:
+      213: -5874550589491729918
+    second: Cybernetic Tile_98
+  - first:
+      213: 8345869506361562699
+    second: Cybernetic Tile_99
+  - first:
+      213: 6227007932814977816
+    second: Cybernetic Tile_100
+  - first:
+      213: -4081274181432210117
+    second: Cybernetic Tile_101
+  - first:
+      213: 2067334789568571568
+    second: Cybernetic Tile_102
+  - first:
+      213: -268326090357746582
+    second: Cybernetic Tile_103
+  - first:
+      213: 2616125836634529185
+    second: Cybernetic Tile_104
+  - first:
+      213: 1489907730963249749
+    second: Cybernetic Tile_105
+  - first:
+      213: 8134250695008290957
+    second: Cybernetic Tile_106
+  - first:
+      213: 7019277852791445045
+    second: Cybernetic Tile_107
+  - first:
+      213: -7329655571885890319
+    second: Cybernetic Tile_108
+  - first:
+      213: -920298697534240991
+    second: Cybernetic Tile_109
+  - first:
+      213: 4931519713036176414
+    second: Cybernetic Tile_110
+  - first:
+      213: 5811159602330997565
+    second: Cybernetic Tile_111
+  - first:
+      213: -5180445148844347991
+    second: Cybernetic Tile_112
+  - first:
+      213: 1413941344131145164
+    second: Cybernetic Tile_113
+  - first:
+      213: -3559843914764412245
+    second: Cybernetic Tile_114
+  - first:
+      213: -869642432163595284
+    second: Cybernetic Tile_115
+  - first:
+      213: 5449868919108800010
+    second: Cybernetic Tile_116
+  - first:
+      213: -5150758482005361508
+    second: Cybernetic Tile_117
+  - first:
+      213: -3881293446670410774
+    second: Cybernetic Tile_118
+  - first:
+      213: -4818196402425176153
+    second: Cybernetic Tile_119
+  - first:
+      213: -8766864864383802665
+    second: Cybernetic Tile_120
+  - first:
+      213: -7222272983128435880
+    second: Cybernetic Tile_121
+  - first:
+      213: -3968178103130729985
+    second: Cybernetic Tile_122
+  - first:
+      213: 4426772710812684194
+    second: Cybernetic Tile_123
+  - first:
+      213: -1652351182611716671
+    second: Cybernetic Tile_124
+  - first:
+      213: 6926036206707124490
+    second: Cybernetic Tile_125
+  - first:
+      213: -6852507983805419216
+    second: Cybernetic Tile_126
+  - first:
+      213: 5240338595978468625
+    second: Cybernetic Tile_0
+  - first:
+      213: -672356715488585668
+    second: Cybernetic Tile_1
+  - first:
+      213: -2854306362199249618
+    second: Cybernetic Tile_2
+  - first:
+      213: -2797876391591596769
+    second: Cybernetic Tile_3
+  - first:
+      213: -6028146085012439685
+    second: Cybernetic Tile_4
+  - first:
+      213: -7834922522006510497
+    second: Cybernetic Tile_5
+  - first:
+      213: -2026097028940337284
+    second: Cybernetic Tile_6
+  - first:
+      213: -2257154210705265681
+    second: Cybernetic Tile_7
+  - first:
+      213: -8391266276509068881
+    second: Cybernetic Tile_8
+  - first:
+      213: 4520282180096146054
+    second: Cybernetic Tile_9
+  - first:
+      213: 4650793978954517247
+    second: Cybernetic Tile_10
+  - first:
+      213: 1883820451633236201
+    second: Cybernetic Tile_11
+  - first:
+      213: 3662887743164985335
+    second: Cybernetic Tile_12
+  - first:
+      213: -6822308124445935367
+    second: Cybernetic Tile_13
+  - first:
+      213: 6576458870055923064
+    second: Cybernetic Tile_14
+  - first:
+      213: 5088444791577282420
+    second: Cybernetic Tile_15
+  - first:
+      213: -2858990002499567756
+    second: Cybernetic Tile_16
+  - first:
+      213: -1106052596940401388
+    second: Cybernetic Tile_17
+  - first:
+      213: -216047501848074018
+    second: Cybernetic Tile_18
+  - first:
+      213: 3915605086628996887
+    second: Cybernetic Tile_19
+  - first:
+      213: -278064843638895566
+    second: Cybernetic Tile_20
+  - first:
+      213: 223474190475879197
+    second: Cybernetic Tile_21
+  - first:
+      213: 2540568875297301369
+    second: Cybernetic Tile_22
+  - first:
+      213: -2781832005408808458
+    second: Cybernetic Tile_23
+  - first:
+      213: -949217274383445451
+    second: Cybernetic Tile_24
+  - first:
+      213: -7259100677668787627
+    second: Cybernetic Tile_25
+  - first:
+      213: -7947638673095104589
+    second: Cybernetic Tile_26
+  - first:
+      213: 1488342955409385621
+    second: Cybernetic Tile_27
+  - first:
+      213: 2670270814135957425
+    second: Cybernetic Tile_28
+  - first:
+      213: -1104041605550906235
+    second: Cybernetic Tile_29
+  - first:
+      213: -9195471895721298199
+    second: Cybernetic Tile_30
+  - first:
+      213: 1093723988237270175
+    second: Cybernetic Tile_31
+  - first:
+      213: 4228920549660992591
+    second: Cybernetic Tile_32
+  - first:
+      213: 4863263307696473233
+    second: Cybernetic Tile_33
+  - first:
+      213: -808510348362328827
+    second: Cybernetic Tile_34
+  - first:
+      213: 2178245156970385387
+    second: Cybernetic Tile_36
+  - first:
+      213: 542174671800018686
+    second: Cybernetic Tile_37
+  - first:
+      213: 3594558092287978386
+    second: Cybernetic Tile_38
+  - first:
+      213: -1365465553591065989
+    second: Cybernetic Tile_40
+  - first:
+      213: -738188879200481533
+    second: Cybernetic Tile_41
+  - first:
+      213: 3355766102099268989
+    second: Cybernetic Tile_42
+  - first:
+      213: 1272981967633971137
+    second: Cybernetic Tile_43
+  - first:
+      213: 8935788672033470361
+    second: Cybernetic Tile_44
+  - first:
+      213: 2925546291492737214
+    second: Cybernetic Tile_45
+  - first:
+      213: -5541215351821351331
+    second: Cybernetic Tile_46
+  - first:
+      213: 2724968170924097999
+    second: Cybernetic Tile_50
+  - first:
+      213: 8128905031737463251
+    second: Cybernetic Tile_51
+  - first:
+      213: 1891706733605424024
+    second: Cybernetic Tile_52
+  - first:
+      213: -716188280089393917
+    second: Cybernetic Tile_53
+  - first:
+      213: 2649235268446736251
+    second: Cybernetic Tile_54
+  - first:
+      213: 3449632227855704333
+    second: Cybernetic Tile_55
+  - first:
+      213: -4290650283101085015
+    second: Cybernetic Tile_56
+  - first:
+      213: -372108101197351504
+    second: Cybernetic Tile_57
+  - first:
+      213: -8587568080268223736
+    second: Cybernetic Tile_58
+  - first:
+      213: -6370128590042190436
+    second: Cybernetic Tile_59
+  - first:
+      213: 4020418250873551464
+    second: Cybernetic Tile_35
+  - first:
+      213: -7349191520264240154
+    second: Cybernetic Tile_39
+  - first:
+      213: 9065315468244477039
+    second: Cybernetic Tile_47
+  - first:
+      213: 1142999446887029310
+    second: Cybernetic Tile_48
+  - first:
+      213: 3121793623934825288
+    second: Cybernetic Tile_49
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 0
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 256
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Cybernetic Tile_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1536
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11dd014403c69b840800000000000000
+      internalID: 5240338595978468625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cybernetic Tile_1
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1536
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3854fa212f4ba6f0800000000000000
+      internalID: -672356715488585668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cybernetic Tile_2
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1536
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2de9f08c777368d0800000000000000
+      internalID: -2854306362199249618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cybernetic Tile_3
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1536
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1d2bb1ee32fb29d0800000000000000
+      internalID: -2797876391591596769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cybernetic Tile_4
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1536
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7dfbacf219b75ca0800000000000000
+      internalID: -6028146085012439685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cybernetic Tile_5
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 1536
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5428193a73c44390800000000000000
+      internalID: -7834922522006510497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cybernetic Tile_6
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1536
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7f6985ac7bd1e3e0800000000000000
+      internalID: -2026097028940337284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cybernetic Tile_7
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 1536
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: feba2ab443afca0e0800000000000000
+      internalID: -2257154210705265681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cybernetic Tile_8
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 1536
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa156f4c7cb3c8b80800000000000000
+      internalID: -8391266276509068881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cybernetic Tile_9
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 1536
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68ab82d71b44bbe30800000000000000
+      internalID: 4520282180096146054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cybernetic Tile_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1280
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffa0c1f9b70fa8040800000000000000
+      internalID: 4650793978954517247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cybernetic Tile_11
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1280
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e8073848bca42a10800000000000000
+      internalID: 1883820451633236201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cybernetic Tile_12
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1280
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ff2b7fdef035d230800000000000000
+      internalID: 3662887743164985335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cybernetic Tile_13
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1280
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f8732e28ea4251a0800000000000000
+      internalID: -6822308124445935367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cybernetic Tile_14
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1280
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87d66adaf76444b50800000000000000
+      internalID: 6576458870055923064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cybernetic Tile_15
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 1280
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47786250499cd9640800000000000000
+      internalID: 5088444791577282420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cybernetic Tile_16
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1280
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47fbe948db3d258d0800000000000000
+      internalID: -2858990002499567756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cybernetic Tile_17
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 1280
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4151870f50386a0f0800000000000000
+      internalID: -1106052596940401388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cybernetic Tile_18
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 1280
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed82cb511f1700df0800000000000000
+      internalID: -216047501848074018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cybernetic Tile_19
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 1280
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 717eb3d9416075630800000000000000
+      internalID: 3915605086628996887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cybernetic Tile_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1024
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23c016a7f7d142cf0800000000000000
+      internalID: -278064843638895566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cybernetic Tile_21
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1024
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1368cb9790f91300800000000000000
+      internalID: 223474190475879197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cybernetic Tile_22
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1024
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 973628b7ee9e14320800000000000000
+      internalID: 2540568875297301369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cybernetic Tile_23
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1024
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f1abc4a782f469d0800000000000000
+      internalID: -2781832005408808458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cybernetic Tile_24
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 1024
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 532d5b90be3b3d2f0800000000000000
+      internalID: -949217274383445451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cybernetic Tile_25
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1024
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55a21ced46e724b90800000000000000
+      internalID: -7259100677668787627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cybernetic Tile_26
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 1024
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b762073cb054b190800000000000000
+      internalID: -7947638673095104589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cybernetic Tile_27
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 1024
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 598a1294808a7a410800000000000000
+      internalID: 1488342955409385621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cybernetic Tile_28
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 1024
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b7baa26825be0520800000000000000
+      internalID: 2670270814135957425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cybernetic Tile_29
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 768
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 584e2eb5208ada0f0800000000000000
+      internalID: -1104041605550906235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cybernetic Tile_30
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 768
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e6b171d70f136080800000000000000
+      internalID: -9195471895721298199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cybernetic Tile_31
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 768
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9cb4392c20bd2f00800000000000000
+      internalID: 1093723988237270175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cybernetic Tile_32
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 768
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f44a4e985d420ba30800000000000000
+      internalID: 4228920549660992591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cybernetic Tile_33
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 768
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19480703638cd7340800000000000000
+      internalID: 4863263307696473233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cybernetic Tile_34
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 768
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 505d2a03f1897c4f0800000000000000
+      internalID: -808510348362328827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cybernetic Tile_36
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 768
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bef4feeed6eaa3e10800000000000000
+      internalID: 2178245156970385387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cybernetic Tile_37
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 768
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef6aadecdf0368700800000000000000
+      internalID: 542174671800018686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cybernetic Tile_38
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 768
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29ba4574a8f62e130800000000000000
+      internalID: 3594558092287978386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cybernetic Tile_40
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 512
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b722c254054ec0de0800000000000000
+      internalID: -1365465553591065989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cybernetic Tile_41
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 512
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30f8c1e102d61c5f0800000000000000
+      internalID: -738188879200481533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cybernetic Tile_42
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 512
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d759ce08d73129e20800000000000000
+      internalID: 3355766102099268989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cybernetic Tile_43
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 512
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c7fc42ea5a8aa110800000000000000
+      internalID: 1272981967633971137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cybernetic Tile_44
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 512
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 997b380147c420c70800000000000000
+      internalID: 8935788672033470361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cybernetic Tile_45
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 512
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb0d2661ad0a99820800000000000000
+      internalID: 2925546291492737214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cybernetic Tile_46
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 512
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d564fb20ff5a913b0800000000000000
+      internalID: -5541215351821351331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cybernetic Tile_50
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc14d2c2d1801d520800000000000000
+      internalID: 2724968170924097999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cybernetic Tile_51
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d1d89dbe0cafc070800000000000000
+      internalID: 8128905031737463251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cybernetic Tile_52
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89b04c36041b04a10800000000000000
+      internalID: 1891706733605424024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cybernetic Tile_53
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30549f4cd869f06f0800000000000000
+      internalID: -716188280089393917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cybernetic Tile_54
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7f443eb079f3c420800000000000000
+      internalID: 2649235268446736251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cybernetic Tile_55
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d01241bfb3e8fdf20800000000000000
+      internalID: 3449632227855704333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cybernetic Tile_56
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a2a454ec4c8474c0800000000000000
+      internalID: -4290650283101085015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cybernetic Tile_57
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b5361a47a106daf0800000000000000
+      internalID: -372108101197351504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cybernetic Tile_58
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80b11237454d2d880800000000000000
+      internalID: -8587568080268223736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cybernetic Tile_59
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9da9f83cc1c897a0800000000000000
+      internalID: -6370128590042190436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cybernetic Tile_35
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 768
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86ab0db19156bc730800000000000000
+      internalID: 4020418250873551464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cybernetic Tile_39
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e34650004d620a90800000000000000
+      internalID: -7349191520264240154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cybernetic Tile_47
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 512
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f64e09563687ecd70800000000000000
+      internalID: 9065315468244477039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cybernetic Tile_48
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 512
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3a5b2ae0ffbcdf00800000000000000
+      internalID: 1142999446887029310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cybernetic Tile_49
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 843f6b0d2c6d25b20800000000000000
+      internalID: 3121793623934825288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cybernetic Tile_60
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 846fe228f46411640800000000000000
+      internalID: 5048893964559513160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cybernetic Tile_61
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b00b0fd481136c60800000000000000
+      internalID: 7810105441165967539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cybernetic Tile_62
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: addbf7d854c117000800000000000000
+      internalID: 31837757420584410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cybernetic Tile_63
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8c159b46c10cc050800000000000000
+      internalID: 5822030369466424458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cybernetic Tile_64
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10c8b4a611a747420800000000000000
+      internalID: 2626858697880210433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cybernetic Tile_65
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e1e319846b3478a0800000000000000
+      internalID: -6308351875056672285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cybernetic Tile_66
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62b0462de75a077c0800000000000000
+      internalID: -4075575698656064730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cybernetic Tile_67
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a63c937079efd130800000000000000
+      internalID: 3593847696850171559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cybernetic Tile_68
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0f8a471bbe73d9f0800000000000000
+      internalID: -444872596164800755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

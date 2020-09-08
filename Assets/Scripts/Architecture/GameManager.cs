@@ -30,11 +30,14 @@ public class GameManager : MonoBehaviour
     Config cfg;
     public List<Player> playerList;
 
+    public Plane m_Plane; 
+
     // Start is called before the first frame update
     void Start()
     {
         cfg = GetComponent<Config>();
         playerList = new List<Player>();
+
     }
     public void RegisterPlayerControl(Player p)
     {

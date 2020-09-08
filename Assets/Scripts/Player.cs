@@ -1,10 +1,12 @@
 ﻿using System;
+using UnityEditor;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using static MasterInput;
 
 public class Player : MonoBehaviour, IPlayerActions
 {
+    public Ray reyyyy;
     public MasterInput inputActions;
     public Config cfg;
 
@@ -16,12 +18,11 @@ public class Player : MonoBehaviour, IPlayerActions
     [SerializeField]
     Vector2 move;
     [SerializeField]
-    Vector2 aim;
+    public Vector2 aim;
 
     InputAction.CallbackContext _ctx;
 
-    GameObject crosshair;
-    GameObject weapon;
+    [SerializeField]GameObject crosshair, weapon, self;
     private void Awake()
     {
         inputActions = new MasterInput();
@@ -40,8 +41,8 @@ public class Player : MonoBehaviour, IPlayerActions
     {
         rb = GetComponent<Rigidbody2D>();
         sr = GetComponent<SpriteRenderer>();
-        crosshair = transform.GetChild(0).gameObject;
-        weapon = transform.GetChild(1).gameObject;        
+        //crosshair = transform.GetChild(0).gameObject;
+        //weapon = transform.GetChild(1).gameObject;        
 
         cfg = GetComponent<Config>();
 
@@ -60,11 +61,12 @@ public class Player : MonoBehaviour, IPlayerActions
     {
         try
         {
-            Aim(_ctx);
+            crosshair.GetComponent<Crosshair>().Aim(_ctx);
         }
         catch (Exception)
         {
         }
+        
     }
     private void FixedUpdate()
     {
@@ -74,20 +76,7 @@ public class Player : MonoBehaviour, IPlayerActions
     {
         rb.MovePosition(rb.position + move * Time.fixedDeltaTime);
     }
-    public void Aim(InputAction.CallbackContext ctx)
-    {
-        aim = ctx.ReadValue<Vector2>();
-
-        if (ctx.control.shortDisplayName == "RS")
-        {
-            crosshair.transform.localPosition = aim * range;
-        }
-        else
-        {
-            var screenPoint = Camera.main.ScreenToWorldPoint(aim);
-            crosshair.transform.position = new Vector2(screenPoint.x, screenPoint.y);
-        }
-    }
+    
     private void CheckAndFlip()
     {
         bool nextFacing;
@@ -98,7 +87,7 @@ public class Player : MonoBehaviour, IPlayerActions
         {
             facing = nextFacing;
 
-            GetComponent<Actor>().Flip(nextFacing);
+            self.GetComponent<Actor>().Flip(nextFacing);
 
             var wp = weapon.GetComponent<Actor>();
             if (wp)
@@ -108,6 +97,22 @@ public class Player : MonoBehaviour, IPlayerActions
             }
         }
     }
+
+    #region GUI
+
+    void OnGui()
+    {
+    }
+
+    //void OnDrawGizmos()
+    //{
+    //    // Draws a 5 unit long red line in front of the object
+    //    Gizmos.color = Color.red;
+    //    Gizmos.DrawRay(Camera.main.transform.position, reyyyy.direction);
+    //    print(reyyyy.direction.ToString());
+    //}
+
+    #endregion
     #region IPlayerActions
     public void OnMovement(InputAction.CallbackContext ctx)
     {
@@ -119,12 +124,10 @@ public class Player : MonoBehaviour, IPlayerActions
         _ctx = ctx;
     }
 
-   
     public void OnAttack(InputAction.CallbackContext context)
     {
         weapon.GetComponent<Weapon>().Attack();
     }
-
 
     #endregion
 }

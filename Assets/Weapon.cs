@@ -2,6 +2,8 @@
 
 public class Weapon : MonoBehaviour
 {
+    [SerializeField]
+    Vector3 dirDiff;
     GameObject owner;
     GameObject crosshair;
 
@@ -18,12 +20,13 @@ public class Weapon : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        var diff = transform.position - crosshair.transform.position;
+        var diff = owner.transform.position - crosshair.transform.position;
+        dirDiff = diff;
         if ((diff.magnitude > rotationDZ)) {
             diff.Normalize();
 
             transform.rotation = Quaternion.Euler(
-            0,
+            -20,
             0,
             Mathf.Atan2(
                 diff.y,
@@ -37,4 +40,10 @@ public class Weapon : MonoBehaviour
     {
         Instantiate(projectilePrefab, transform.position, transform.rotation);
     }
+    #region
+    private void OnDrawGizmos()
+    {
+        //Gizmos.DrawLine(owner.transform.position, crosshair.transform.position);
+    }
+    #endregion
 }
