@@ -4,25 +4,26 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 using static MasterInput;
 
+[RequireComponent(typeof(Rigidbody2D))]
 public class Player : MonoBehaviour, IPlayerActions
 {
     public Ray reyyyy;
     public MasterInput inputActions;
     public Config cfg;
 
-    Rigidbody2D rb;
-    SpriteRenderer sr;
+    Rigidbody2D _rb;
 
     bool facing = false;// 0 if left 1 if right
     public float range = 1f;
-    [SerializeField]
-    Vector2 move;
-    [SerializeField]
-    public Vector2 aim;
+    [SerializeField]    Vector2 move;
+    [SerializeField]    public Vector2 aim;
 
+    [SerializeField]    Weapon _weapon;
+    [SerializeField]    Actor _spriteActor;
+    
     InputAction.CallbackContext _ctx;
 
-    [SerializeField]GameObject crosshair, weapon, self;
+    [SerializeField]GameObject crosshair;
     private void Awake()
     {
         inputActions = new MasterInput();
@@ -34,17 +35,21 @@ public class Player : MonoBehaviour, IPlayerActions
         inputActions.Player.Aim.canceled += OnAim;
 
         inputActions.Player.Attack.performed += OnAttack;
-        inputActions.Player.Attack.canceled -= OnAttack;
+        inputActions.Player.Attack.canceled += OnAttack;
     }
 
     private void Start()
     {
-        rb = GetComponent<Rigidbody2D>();
-        sr = GetComponent<SpriteRenderer>();
+        if (!_rb)
+            _rb = GetComponent<Rigidbody2D>();
+        // if (!sr)
+        //     sr = GetComponent<SpriteRenderer>();
+        if (!crosshair)
+            crosshair = transform.Find("Crosshair").gameObject;
+        
         //crosshair = transform.GetChild(0).gameObject;
         //weapon = transform.GetChild(1).gameObject;        
 
-        cfg = GetComponent<Config>();
 
         GameManager.Instance.RegisterPlayerControl(this);
     }
@@ -58,10 +63,10 @@ public class Player : MonoBehaviour, IPlayerActions
         inputActions.Disable();
     }
     private void Update()
-    {
+    {            crosshair.GetComponent<Crosshair>().Aim(_ctx);
+
         try
         {
-            crosshair.GetComponent<Crosshair>().Aim(_ctx);
         }
         catch (Exception)
         {
@@ -74,7 +79,7 @@ public class Player : MonoBehaviour, IPlayerActions
     }
     private void Move(Vector2 move)
     {
-        rb.MovePosition(rb.position + move * Time.fixedDeltaTime);
+        _rb.MovePosition(_rb.position + move * Time.fixedDeltaTime);
     }
     
     private void CheckAndFlip()
@@ -87,14 +92,15 @@ public class Player : MonoBehaviour, IPlayerActions
         {
             facing = nextFacing;
 
-            self.GetComponent<Actor>().Flip(nextFacing);
+            _spriteActor.Flip(nextFacing);
 
-            var wp = weapon.GetComponent<Actor>();
-            if (wp)
-            {
-                wp.Flip(nextFacing);
-                wp.ReverseRenderOrder();
-            }
+            _weapon.WeaponFlipSprite(nextFacing);
+            // var wp = weapon.sprite.GetComponent<Actor>();
+            // if (wp)
+            // {
+            //     wp.Flip(nextFacing);
+            //     wp.ReverseRenderOrder();
+            // }
         }
     }
 
@@ -126,7 +132,7 @@ public class Player : MonoBehaviour, IPlayerActions
 
     public void OnAttack(InputAction.CallbackContext context)
     {
-        weapon.GetComponent<Weapon>().Attack();
+        _weapon.Attack();
     }
 
     #endregion

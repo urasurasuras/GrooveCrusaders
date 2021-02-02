@@ -2,7 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Config : MonoBehaviour
+[System.Serializable]
+public struct Config
 {
     public float ch_deadzone;
     public float ch_fade;

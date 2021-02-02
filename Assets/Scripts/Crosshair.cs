@@ -11,7 +11,7 @@ public class Crosshair : MonoBehaviour
     void Start()
     {
         if (!owner)//TODO: make this a convention
-        owner = transform.parent.gameObject.GetComponent<Player>();
+            owner = transform.parent.gameObject.GetComponent<Player>();
         SpriteRenderer = GetComponent<SpriteRenderer>();
     }
 
@@ -27,26 +27,19 @@ public class Crosshair : MonoBehaviour
         owner.aim = ctx.ReadValue<Vector2>();
         //print(owner.aim.ToString());
 
-        if (ctx.control.shortDisplayName == "RS")
-        {
-            transform.localPosition = owner.aim * owner.range;
-        }
-        else
-        {
+        // if (ctx.control.shortDisplayName == "RS")
+        // {
+        //     transform.localPosition = owner.aim * owner.range;
+        // }
+        // else
+        // {
             GetWors();
-        }
+        // }
     }
     void GetWors()
     {
-        Vector3 point = new Vector3();
-        Event currentEvent = Event.current;
-
-        // Get the mouse position from Event.
-        // Note that the y position from Event is inverted.
-        Vector2 mousePos = owner.aim;
-
         // Get raycast using collider
-        Ray ray = Camera.main.ScreenPointToRay(mousePos);
+        Ray ray = Camera.main.ScreenPointToRay(owner.aim);
 
         if (Physics.Raycast(ray, out var hit))
         {

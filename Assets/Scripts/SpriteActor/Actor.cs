@@ -1,8 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using static MasterInput;
 
+[RequireComponent(typeof(SpriteRenderer))]
 public class Actor : MonoBehaviour
 {
     public Sprite frontSprite;
@@ -34,5 +34,10 @@ public class Actor : MonoBehaviour
     {
         GetComponent<SpriteRenderer>().sortingOrder *= -1;
         //print("New order is: " + GetComponent<SpriteRenderer>().sortingOrder);
+    }
+
+    public void RotateZ(float rotation)
+    {
+        
     }
 }

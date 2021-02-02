@@ -6,6 +6,9 @@ public class Projectile : MonoBehaviour
 {
     public GameObject owner;
     public float speed;
+
+    // [SerializeField] SpriteHolder _spriteHolder;
+    [SerializeField] GameObject spritePrefab;
     private void Start()
     {
         if (speed == 0) return;
@@ -13,7 +16,9 @@ public class Projectile : MonoBehaviour
 
         gameObject.GetComponent<Rigidbody2D>().velocity = force;
         //print(gameObject.GetComponent<Rigidbody2D>().velocity.ToString());
-        Destroy(this, 5);
+
+        // _spriteHolder.SpawnSprite(spritePrefab, transform.position);
+        Destroy(gameObject, 5);
     }
 
     // Update is called once per frame
