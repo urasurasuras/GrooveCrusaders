@@ -36,6 +36,7 @@ public class GameManager : MonoBehaviour
     void Start()
     {        
         playerList = new List<Player>();
+        cfg.cam_tilt = Camera.main.transform.eulerAngles.x-360;
     }
     public void RegisterPlayerControl(Player p)
     {

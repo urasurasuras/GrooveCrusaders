@@ -10,10 +10,10 @@ public class Weapon : MonoBehaviour
     public GameObject sprite;
     public Actor spriteActor;
     public float rotationDZ;
+    public GameObject LightningBoltGameObject;
+    LightningBolt2D lightningBolt;
+    [SerializeField] GameObject tip;
 
-    // public GameObject muzzle;
-
-    public GameObject projectilePrefab;
     // Start is called before the first frame update
     void Start()
     {
@@ -24,6 +24,13 @@ public class Weapon : MonoBehaviour
         spriteActor.GetComponent<SpriteRenderer>().sortingOrder = 1;
         if (!crosshair)
             crosshair = transform.Find("Crosshair").gameObject;
+
+        lightningBolt = LightningBoltGameObject.GetComponent<LightningBolt2D>();
+        
+        //lightningBolt = bolt.GetComponent<LightningBoltScript>();
+        //lightningBolt.StartObject = tip;
+        //lightningBolt.EndObject = crosshair;
+
     }
 
     void Update()
@@ -42,13 +49,17 @@ public class Weapon : MonoBehaviour
             // transform.Rotate(0,0, rotationZ);
             // sprite.transform.Rotate(0,0, rotationZ);
             
-            transform.rotation = Quaternion.Euler(0, 0,rotationZ);
-            sprite.transform.rotation = Quaternion.Euler(0, 0,rotationZ);
+            transform.rotation = Quaternion.Euler(transform.rotation.x, transform.rotation.y, rotationZ);
+            sprite.transform.rotation = transform.rotation;
         }
+
+        lightningBolt.startPoint = new Vector3(tip.transform.position.x, tip.transform.position.y, tip.transform.position.z - 1.1f);
+        lightningBolt.endPoint = new Vector3(crosshair.transform.position.x, crosshair.transform.position.y, crosshair.transform.position.z - 1.1f);
     }
     public void Attack()
     {
-        // Instantiate(projectilePrefab, muzzle.transform.position, transform.rotation);
+        lightningBolt.FireOnce();
+
         print("Attack");
     }
 

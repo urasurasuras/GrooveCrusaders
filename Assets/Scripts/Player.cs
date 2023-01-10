@@ -19,7 +19,7 @@ public class Player : MonoBehaviour, IPlayerActions
     [SerializeField]    public Vector2 aim;
 
     [SerializeField]    Weapon _weapon;
-    [SerializeField]    Actor _spriteActor;
+    [SerializeField]    ActorController _actorController;
     
     InputAction.CallbackContext _ctx;
 
@@ -35,7 +35,7 @@ public class Player : MonoBehaviour, IPlayerActions
         inputActions.Player.Aim.canceled += OnAim;
 
         inputActions.Player.Attack.performed += OnAttack;
-        inputActions.Player.Attack.canceled += OnAttack;
+        //inputActions.Player.Attack.canceled += OnAttack;
     }
 
     private void Start()
@@ -45,11 +45,7 @@ public class Player : MonoBehaviour, IPlayerActions
         // if (!sr)
         //     sr = GetComponent<SpriteRenderer>();
         if (!crosshair)
-            crosshair = transform.Find("Crosshair").gameObject;
-        
-        //crosshair = transform.GetChild(0).gameObject;
-        //weapon = transform.GetChild(1).gameObject;        
-
+            crosshair = transform.Find("Crosshair").gameObject;        
 
         GameManager.Instance.RegisterPlayerControl(this);
     }
@@ -76,6 +72,7 @@ public class Player : MonoBehaviour, IPlayerActions
     private void FixedUpdate()
     {
         Move(move);
+        CheckAndFlip();
     }
     private void Move(Vector2 move)
     {
@@ -92,9 +89,11 @@ public class Player : MonoBehaviour, IPlayerActions
         {
             facing = nextFacing;
 
-            _spriteActor.Flip(nextFacing);
 
-            _weapon.WeaponFlipSprite(nextFacing);
+            _actorController.FlipAndReverseActorsSprites(facing);
+            //_spriteActor.Flip(nextFacing);
+
+            //_weapon.WeaponFlipSprite(nextFacing);
             // var wp = weapon.sprite.GetComponent<Actor>();
             // if (wp)
             // {
@@ -126,7 +125,6 @@ public class Player : MonoBehaviour, IPlayerActions
     }
     public void OnAim(InputAction.CallbackContext ctx)
     {
-        CheckAndFlip();
         _ctx = ctx;
     }
 

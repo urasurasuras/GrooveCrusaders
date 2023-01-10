@@ -43,6 +43,7 @@ public class Crosshair : MonoBehaviour
 
         if (Physics.Raycast(ray, out var hit))
         {
+            print(hit.collider.gameObject);
             // transform.position = hit.point;
             transform.position = new Vector3(
                 hit.point.x,
@@ -57,6 +58,6 @@ public class Crosshair : MonoBehaviour
         //print("Screen pixels: " + Camera.main.pixelWidth + ":" + Camera.main.pixelHeight);
         //print("Mouse position: " + mousePos);
         //print("World position: " + hit.point.ToString("F3"));
-        DebugManager.Instance.Deboog("World pos", hit.point);
+        // DebugManager.Instance.Deboog("World pos", hit.point);
     }
 }
