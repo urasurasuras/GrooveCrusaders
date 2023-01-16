@@ -15,15 +15,15 @@ public class Player : MonoBehaviour, IPlayerActions
 
     bool facing = false;// 0 if left 1 if right
     public float range = 1f;
-    [SerializeField]    Vector2 move;
-    [SerializeField]    public Vector2 aim;
+    [SerializeField] Vector2 move;
+    [SerializeField] public Vector2 aim;
 
-    [SerializeField]    Weapon _weapon;
-    [SerializeField]    ActorController _actorController;
-    
+    [SerializeField] Weapon _weapon;
+    [SerializeField] ActorController _actorController;
+
     InputAction.CallbackContext _ctx;
 
-    [SerializeField]GameObject crosshair;
+    [SerializeField] GameObject crosshair;
     private void Awake()
     {
         inputActions = new MasterInput();
@@ -45,7 +45,7 @@ public class Player : MonoBehaviour, IPlayerActions
         // if (!sr)
         //     sr = GetComponent<SpriteRenderer>();
         if (!crosshair)
-            crosshair = transform.Find("Crosshair").gameObject;        
+            crosshair = transform.Find("Crosshair").gameObject;
 
         GameManager.Instance.RegisterPlayerControl(this);
     }
@@ -59,15 +59,8 @@ public class Player : MonoBehaviour, IPlayerActions
         inputActions.Disable();
     }
     private void Update()
-    {            crosshair.GetComponent<Crosshair>().Aim(_ctx);
-
-        try
-        {
-        }
-        catch (Exception)
-        {
-        }
-        
+    {
+        crosshair.GetComponent<Crosshair>().Aim(_ctx);
     }
     private void FixedUpdate()
     {
@@ -78,7 +71,7 @@ public class Player : MonoBehaviour, IPlayerActions
     {
         _rb.MovePosition(_rb.position + move * Time.fixedDeltaTime);
     }
-    
+
     private void CheckAndFlip()
     {
         bool nextFacing;

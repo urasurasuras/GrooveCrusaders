@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+using SpatooGame.Interfaces;
+using UnityEngine;
 
 public class Weapon : MonoBehaviour
 {
@@ -6,12 +7,13 @@ public class Weapon : MonoBehaviour
     Vector3 dirDiff;
 
     [SerializeField] GameObject owner, crosshair;
+    Crosshair Crosshair;
 
     public GameObject sprite;
     public Actor spriteActor;
     public float rotationDZ;
-    public GameObject LightningBoltGameObject;
-    LightningBolt2D lightningBolt;
+    public LightningBolt2D LightningBolt;
+    public LightningBolt2D Electrification;
     [SerializeField] GameObject tip;
 
     // Start is called before the first frame update
@@ -21,12 +23,11 @@ public class Weapon : MonoBehaviour
         //crosshair = owner.transform.GetChild(0).gameObject;
         if (!spriteActor)
             spriteActor = sprite.GetComponent<Actor>();
-        spriteActor.GetComponent<SpriteRenderer>().sortingOrder = 1;
         if (!crosshair)
             crosshair = transform.Find("Crosshair").gameObject;
 
-        lightningBolt = LightningBoltGameObject.GetComponent<LightningBolt2D>();
-        
+        Crosshair = crosshair.GetComponent<Crosshair>();
+
         //lightningBolt = bolt.GetComponent<LightningBoltScript>();
         //lightningBolt.StartObject = tip;
         //lightningBolt.EndObject = crosshair;
@@ -37,45 +38,65 @@ public class Weapon : MonoBehaviour
     {
         var diff = owner.transform.position - crosshair.transform.position;
         dirDiff = diff;
-        if ((diff.magnitude > rotationDZ)) {
+        if ((diff.magnitude > rotationDZ))
+        {
             diff.Normalize();
 
             var rotationZ = Mathf.Atan2(
                 diff.y,
                 diff.x
             ) * Mathf.Rad2Deg - 180;
-            
-            
+
+
             // transform.Rotate(0,0, rotationZ);
             // sprite.transform.Rotate(0,0, rotationZ);
-            
-            transform.rotation = Quaternion.Euler(transform.rotation.x, transform.rotation.y, rotationZ);
-            sprite.transform.rotation = transform.rotation;
+
+            transform.localRotation = Quaternion.Euler(transform.localEulerAngles.x, transform.localEulerAngles.y, rotationZ);
+            sprite.transform.localRotation = transform.localRotation;
         }
 
-        lightningBolt.startPoint = new Vector3(tip.transform.position.x, tip.transform.position.y, tip.transform.position.z - 1.1f);
-        lightningBolt.endPoint = new Vector3(crosshair.transform.position.x, crosshair.transform.position.y, crosshair.transform.position.z - 1.1f);
+        LightningBolt.startPoint = new Vector3(tip.transform.position.x, tip.transform.position.y, tip.transform.position.z - 1.1f);
+
+        var target = Crosshair.Target;
+        if (target != null)
+        {
+            var x = target.Colliders[0].bounds.extents.x;
+            var entPos = target.transform.position;
+            Electrification.startPoint = entPos + new Vector3(-x, 0, -0.1f);
+            Electrification.endPoint = entPos + new Vector3(x, 0, -0.1f);
+
+        }
     }
     public void Attack()
     {
-        lightningBolt.FireOnce();
+        LightningBolt.FireOnce();
+        LightningBolt.endPoint = new Vector3(crosshair.transform.position.x, crosshair.transform.position.y, crosshair.transform.position.z - 1.1f);
 
-        print("Attack");
+        var target = Crosshair.Target;
+        if (target != null)
+        {
+            Electrify((IElectrocutable)target);
+            print(target);
+        }
+    }
+
+    void Electrify(IElectrocutable target)
+    {
+        target.Electrocute();
     }
 
     public void WeaponFlipSprite(bool nextFacing)
     {
         spriteActor.Flip(nextFacing);
         spriteActor.ReverseRenderOrder();
-        
     }
 
     #region Debug
-    #if UNITY_EDTIOR
+#if UNITY_EDTIOR
     private void OnDrawGizmos()
     {
         //Gizmos.DrawLine(owner.transform.position, crosshair.transform.position);
     }
-    #endif
+#endif
     #endregion
 }

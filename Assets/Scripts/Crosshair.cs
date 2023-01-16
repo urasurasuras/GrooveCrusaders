@@ -1,12 +1,14 @@
 ﻿using UnityEngine;
 using UnityEngine.InputSystem;
-using Debooger;
+using SpatooGame.Interfaces;
 
 public class Crosshair : MonoBehaviour
 {
     [SerializeField]
     Player owner;
     SpriteRenderer SpriteRenderer;
+    public IDamagableWithHealth Target = null;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -33,7 +35,7 @@ public class Crosshair : MonoBehaviour
         // }
         // else
         // {
-            GetWors();
+        GetWors();
         // }
     }
     void GetWors()
@@ -43,7 +45,7 @@ public class Crosshair : MonoBehaviour
 
         if (Physics.Raycast(ray, out var hit))
         {
-            print(hit.collider.gameObject);
+            // print(hit.collider.gameObject);
             // transform.position = hit.point;
             transform.position = new Vector3(
                 hit.point.x,
@@ -59,5 +61,19 @@ public class Crosshair : MonoBehaviour
         //print("Mouse position: " + mousePos);
         //print("World position: " + hit.point.ToString("F3"));
         // DebugManager.Instance.Deboog("World pos", hit.point);
+    }
+
+    void OnTriggerEnter2D(Collider2D col)
+    {
+        if (col.TryGetComponent<IDamagableWithHealth>(out Target))
+        {
+            // print(Target);
+        }
+
+    }
+
+    void OnTriggerExit2D()
+    {
+        Target = null;
     }
 }

@@ -17,17 +17,14 @@ public class Actor : MonoBehaviour
     {
         //var pc = GetComponent<IPlayerActions>();
         _sr = GetComponent<SpriteRenderer>();
+        // print($"old order of {this} is: {_sr.sortingOrder}");
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (outline){
-            ToggleHighlight(true);
-        }else{
-            ToggleHighlight(false);
-        }
-        
+        ToggleHighlight(outline);
         // print(this.name + _sr.material.GetFloat("_OutlineEnabled"));
     }
     public void Flip(bool facing)
@@ -35,7 +32,8 @@ public class Actor : MonoBehaviour
         if (facing)
         {
             _sr.sprite = backSprite;
-        }else if (!facing)
+        }
+        else if (!facing)
         {
             _sr.sprite = frontSprite;
         }
@@ -43,13 +41,18 @@ public class Actor : MonoBehaviour
     }
     public void ReverseRenderOrder()
     {
-        _sr.sortingOrder *= -1;
-        //print("New order is: " + GetComponent<SpriteRenderer>().sortingOrder);
+        // print($"old order of {this} is: {_sr.sortingOrder}");
+        transform.localPosition = new Vector3(
+            transform.localPosition.x,
+            transform.localPosition.y,
+            transform.localPosition.z * -1);
+        // print(transform.localPosition);
+        // print(transform.position);
     }
 
     public void ToggleHighlight(bool boolean)
     {
-        if (boolean)        _sr.material.SetFloat("_OutlineEnabled", 1);
-        else                _sr.material.SetFloat("_OutlineEnabled", 0);
+        if (boolean) _sr.material.SetFloat("_OutlineEnabled", 1);
+        else _sr.material.SetFloat("_OutlineEnabled", 0);
     }
 }

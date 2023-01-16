@@ -7,8 +7,11 @@ using UnityEngine;
 /// Class for GO that contains sprite holders to be instantiated
 /// </summary>
 public class ActorController : MonoBehaviour
-{   
+{
     public List<Actor> actors = new List<Actor>();
+    public Vector2 VfxOffset;
+    public LightningBolt2D Electrification;
+
 
     void Start()
     {
@@ -34,5 +37,18 @@ public class ActorController : MonoBehaviour
             actor.Flip(facing);
             actor.ReverseRenderOrder();
         }
+    }
+
+    void Update()
+    {
+        // Electrify();
+    }
+    public void Electrify()
+    {
+        var entPos = transform.position;
+        Electrification.startPoint = entPos + new Vector3(-0.5f, 0.5f, -0.1f);
+        Electrification.endPoint = entPos + new Vector3(0.5f, 0.5f, -0.1f);
+        Electrification.FireOnce();
+
     }
 }

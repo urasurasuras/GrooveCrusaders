@@ -9,10 +9,10 @@ public class ExampleEditorWindow : EditorWindow
     #region Singleton
     public static ExampleEditorWindow Instance
     {
-        get { return GetWindow< ExampleEditorWindow >(); }
+        get { return GetWindow<ExampleEditorWindow>(); }
     }
     #endregion
-    
+
     [MenuItem("Examples/Editor GUILayout Label Usage")]
     static void Init()
     {
@@ -24,10 +24,10 @@ public class ExampleEditorWindow : EditorWindow
     {
         //EditorGUILayout.LabelField("test" + GameManager.Instance.debugVars[0]);
 
-        foreach (var VARIABLE in DebugManager.Instance.debugVars)
-        {
-            EditorGUILayout.LabelField(VARIABLE);
-        }
+        // foreach (var VARIABLE in DebugManager.Instance.debugVars)
+        // {
+        //     EditorGUILayout.LabelField(VARIABLE);
+        // }
 
         this.Repaint();
 
