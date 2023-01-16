@@ -18,6 +18,7 @@ namespace SpatooGame.Interfaces
         /// </summary>
         /// <param name="damageAmount">Amount of damage</param>
         /// <param name="DamageSource">Source of damage entity</param>
-        void TakeDamage(float damageAmount, Transform damageSource, DamageSourceType damageSourceType);
+        // void TakeDamage(float damageAmount, Transform damageSource, DamageSourceType damageSourceType);
+        void TakeDamage(float damageAmount, Transform damageSource);
     }
 }

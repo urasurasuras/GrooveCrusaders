@@ -15,6 +15,7 @@ public class Weapon : MonoBehaviour
     public LightningBolt2D LightningBolt;
     public LightningBolt2D Electrification;
     [SerializeField] GameObject tip;
+    public float Damage = 25;
 
     // Start is called before the first frame update
     void Start()
@@ -83,6 +84,7 @@ public class Weapon : MonoBehaviour
     void Electrify(IElectrocutable target)
     {
         target.Electrocute();
+        target.TakeDamage(Damage, transform);
     }
 
     public void WeaponFlipSprite(bool nextFacing)
